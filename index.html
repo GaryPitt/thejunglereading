@@ -3,154 +3,142 @@
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
-<title>What's Your Jungle Classic? | Amex Afters</title>
+<title>What Kind of Emotional Junglist Are You? | Amex Afters</title>
 <style>
 :root{
-  --ink:#0b0b0c;
-  --paper:#f4f2ec;
-  --blue:#006FCF;
-  --acid:#D8FF3E;
-  --hot:#FF3D7F;
-  --mute:rgba(244,242,236,.55);
+  --afters:#283E9A;--afters-mid:#1E2C74;--afters-deep:#10184A;
+  --hi:#4A6FC8;--cyan:#5BC8F0;--peri:#9AA6D8;
+  --white:#fff;--soft:rgba(255,255,255,.62);--faint:rgba(255,255,255,.14);
+  --ink:#111A44;--card:#F6F3EA;
+  --chev:url("data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGluZz0iVVRGLTgiPz4KPHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHhtbG5zOnhsaW5rPSJodHRwOi8vd3d3LnczLm9yZy8xOTk5L3hsaW5rIiB3aWR0aD0iODc5LjE4IiBoZWlnaHQ9Ijg3OS4xOCIgdmlld0JveD0iMCAwIDg3OS4xOCA4NzkuMTgiPgo8ZGVmcz4KPGNsaXBQYXRoIGlkPSJjbGlwLTAiPgo8cGF0aCBjbGlwLXJ1bGU9Im5vbnplcm8iIGQ9Ik0gMCAwIEwgODc4LjM1OTM3NSAwIEwgODc4LjM1OTM3NSA4NzguMzU5Mzc1IEwgMCA4NzguMzU5Mzc1IFogTSAwIDAgIi8+CjwvY2xpcFBhdGg+CjwvZGVmcz4KPGcgY2xpcC1wYXRoPSJ1cmwoI2NsaXAtMCkiPgo8cGF0aCBmaWxsLXJ1bGU9Im5vbnplcm8iIGZpbGw9IiNmZmZmZmYiIGZpbGwtb3BhY2l0eT0iMSIgZD0iTSA4NjkuMTQ4NDM4IDM0My44OTQ1MzEgTCAyMC4wOTc2NTYgMS4wNjY0MDYgQyAxNS41NzAzMTIgLTAuNzU3ODEyIDEwLjQ3MjY1NiAtMC4yMTA5MzggNi40Mzc1IDIuNTUwNzgxIEMgMi40MTAxNTYgNS4zMDQ2ODggMCA5Ljg4MjgxMiAwIDE0LjgwMDc4MSBMIDAgMTcwLjkyMTg3NSBDIDAgMTc3LjAwNzgxMiAzLjYxMzI4MSAxODIuMzk0NTMxIDkuMjEwOTM4IDE4NC42NjAxNTYgTCA2MzMuNDc2NTYyIDQzNi43MjY1NjIgQyA2MzQuOTEwMTU2IDQzNy4zMDQ2ODggNjM1LjEyMTA5NCA0MzguNTExNzE5IDYzNS4xMjEwOTQgNDM5LjE4MzU5NCBDIDYzNS4xMjEwOTQgNDM5Ljg1NTQ2OSA2MzQuOTEwMTU2IDQ0MS4wNjI1IDYzMy40NzY1NjIgNDQxLjYzNjcxOSBMIDkuMjEwOTM4IDY5My43MDcwMzEgQyAzLjYxNzE4OCA2OTUuOTY4NzUgMCA3MDEuMzU5Mzc1IDAgNzA3LjQ0MTQwNiBMIDAgODYzLjU3MDMxMiBDIDAgODY4LjQ4MDQ2OSAyLjQwNjI1IDg3My4wNTg1OTQgNi40Mzc1IDg3NS44MTY0MDYgQyA4LjkwMjM0NCA4NzcuNSAxMS43NjU2MjUgODc4LjM1OTM3NSAxNC42NTIzNDQgODc4LjM1OTM3NSBDIDE2LjQ4ODI4MSA4NzguMzU5Mzc1IDE4LjMzNTkzOCA4NzguMDExNzE5IDIwLjA5Mzc1IDg3Ny4zMDQ2ODggTCA4NjkuMTQ0NTMxIDUzNC40NjQ4NDQgQyA4NzQuNzM4MjgxIDUzMi4yMDcwMzEgODc4LjM1NTQ2OSA1MjYuODE2NDA2IDg3OC4zNTU0NjkgNTIwLjczMDQ2OSBMIDg3OC4zNTU0NjkgMzU3LjYzMjgxMiBDIDg3OC4zNTU0NjkgMzUxLjU1MDc4MSA4NzQuNzQyMTg4IDM0Ni4xNjAxNTYgODY5LjE0ODQzOCAzNDMuODk0NTMxICIvPgo8L2c+Cjwvc3ZnPgo=");
+  --serif:Georgia,"Times New Roman",serif;
 }
 *{box-sizing:border-box;-webkit-tap-highlight-color:transparent}
 html,body{margin:0;padding:0;height:100%}
-body{
-  background:var(--ink);
-  color:var(--paper);
-  font-family:"Helvetica Neue",Helvetica,Arial,sans-serif;
-  overflow-x:hidden;
-  -webkit-font-smoothing:antialiased;
-}
-body::before{
-  content:"";position:fixed;inset:0;pointer-events:none;z-index:0;
+body{background:var(--afters-deep);color:var(--white);font-family:"Helvetica Neue",Helvetica,Arial,sans-serif;overflow-x:hidden;-webkit-font-smoothing:antialiased}
+body::before{content:"";position:fixed;inset:0;pointer-events:none;z-index:0;
   background:
-    radial-gradient(60% 40% at 20% 0%, rgba(0,111,207,.35), transparent 70%),
-    radial-gradient(50% 40% at 90% 100%, rgba(255,61,127,.22), transparent 70%);
-}
-body::after{
-  content:"";position:fixed;inset:0;pointer-events:none;z-index:1;opacity:.06;
-  background-image:repeating-linear-gradient(0deg,#fff 0 1px,transparent 1px 3px);
-}
-.wrap{position:relative;z-index:2;max-width:620px;margin:0 auto;padding:26px 22px 60px;min-height:100%;display:flex;flex-direction:column}
+    radial-gradient(52% 60% at 5% 42%, rgba(91,200,240,.20), transparent 58%),
+    radial-gradient(72% 66% at 99% 10%, rgba(74,111,200,.42), transparent 62%),
+    linear-gradient(162deg, #283E9A 0%, #1E2A70 52%, #0E1746 100%);}
+body::after{content:"";position:fixed;inset:0;pointer-events:none;z-index:1;opacity:.045;
+  background-image:repeating-linear-gradient(0deg,#fff 0 1px,transparent 1px 3px)}
+.wrap{position:relative;z-index:2;max-width:620px;margin:0 auto;padding:22px 22px 60px;min-height:100%;display:flex;flex-direction:column}
+.wrap::after{content:"";position:fixed;right:-6%;bottom:-8%;width:62vw;max-width:420px;height:62vw;max-height:420px;z-index:0;pointer-events:none;background:var(--chev) no-repeat center/contain;opacity:.06}
 
-.brandbar{display:flex;justify-content:space-between;align-items:center;font-size:10px;letter-spacing:.22em;text-transform:uppercase;color:var(--mute);margin-bottom:34px}
-.brandbar b{color:var(--paper);font-weight:700}
+.lockbar{display:flex;justify-content:space-between;align-items:center;margin-bottom:30px;position:relative;z-index:3}
+.ribbon{height:26px;width:126px;color:var(--white);display:block}
+.evt{font-size:10px;letter-spacing:.16em;text-transform:uppercase;color:var(--soft);font-weight:600;text-align:right;line-height:1.35}
 
-.screen{display:none;flex:1;flex-direction:column;justify-content:center}
+.aahero{margin-bottom:22px;line-height:.82}
+.aahero .a{font-size:clamp(30px,10vw,52px);font-weight:800;letter-spacing:-.02em;text-transform:uppercase;color:var(--white)}
+.aahero .r{display:block;font-size:clamp(30px,10vw,52px);font-weight:800;letter-spacing:-.02em;text-transform:uppercase;color:var(--white);transform:scaleY(-1);opacity:.20;-webkit-mask-image:linear-gradient(transparent 30%,#000);mask-image:linear-gradient(transparent 30%,#000);margin-top:-4px}
+
+.screen{display:none;flex:1;flex-direction:column;justify-content:center;position:relative;z-index:2}
 .screen.on{display:flex;animation:fade .45s ease both}
 @keyframes fade{from{opacity:0;transform:translateY(14px)}to{opacity:1;transform:none}}
 
-h1{
-  font-size:clamp(44px,13vw,78px);line-height:.86;margin:0 0 18px;
-  font-weight:800;letter-spacing:-.035em;text-transform:uppercase;
-}
-h1 em{font-style:normal;color:var(--acid)}
-.kicker{font-size:11px;letter-spacing:.28em;text-transform:uppercase;color:var(--blue);font-weight:700;margin-bottom:18px}
-.lede{font-size:17px;line-height:1.5;color:var(--mute);margin:0 0 34px;max-width:34em}
+h1{font-size:clamp(34px,10vw,58px);line-height:.94;margin:0 0 18px;font-weight:800;letter-spacing:-.03em;text-transform:uppercase}
+h1 em{font-style:normal;color:var(--cyan)}
+.kicker,.sub-lbl{font-size:11px;letter-spacing:.24em;text-transform:uppercase;color:var(--soft);font-weight:700;margin-bottom:16px;display:flex;align-items:center;gap:8px}
+.kicker::before{content:"";width:13px;height:9px;background:var(--chev) no-repeat center/contain;flex:none;opacity:.9}
+.lede{font-size:17px;line-height:1.5;color:var(--soft);margin:0 0 32px;max-width:34em}
 
 button{font-family:inherit;cursor:pointer;border:0}
-.btn{
-  display:block;width:100%;background:var(--acid);color:var(--ink);
-  font-size:15px;font-weight:800;letter-spacing:.14em;text-transform:uppercase;
-  padding:20px;border-radius:2px;transition:transform .12s ease, filter .2s;
-}
+.btn{display:block;width:100%;background:var(--white);color:var(--afters);font-size:15px;font-weight:800;letter-spacing:.14em;text-transform:uppercase;padding:20px;border-radius:3px;transition:transform .12s ease,filter .2s}
 .btn:active{transform:scale(.985)}
-.btn.ghost{background:transparent;color:var(--paper);border:1px solid rgba(244,242,236,.3)}
-.btn.blue{background:var(--blue);color:#fff}
+.btn.ghost{background:transparent;color:var(--white);border:1px solid rgba(255,255,255,.35)}
+.btn.cyan{background:var(--cyan);color:#062033}
 .btn+.btn{margin-top:10px}
 
-label{display:block;font-size:11px;letter-spacing:.24em;text-transform:uppercase;color:var(--mute);margin-bottom:12px}
-input[type=text]{
-  width:100%;background:transparent;border:0;border-bottom:2px solid rgba(244,242,236,.3);
-  color:var(--paper);font-family:inherit;font-size:32px;font-weight:700;padding:6px 0 14px;
-  outline:none;letter-spacing:-.01em;
-}
-input[type=text]:focus{border-bottom-color:var(--acid)}
-input::placeholder{color:rgba(244,242,236,.22)}
+label{display:block;font-size:11px;letter-spacing:.24em;text-transform:uppercase;color:var(--soft);margin-bottom:12px}
+input[type=text]{width:100%;background:transparent;border:0;border-bottom:2px solid rgba(255,255,255,.35);color:var(--white);font-family:inherit;font-size:32px;font-weight:700;padding:6px 0 14px;outline:none;letter-spacing:-.01em}
+input[type=text]:focus{border-bottom-color:var(--cyan)}
+input::placeholder{color:rgba(255,255,255,.25)}
 
 .prog{display:flex;gap:5px;margin-bottom:30px}
-.prog i{flex:1;height:3px;background:rgba(244,242,236,.18);border-radius:2px}
-.prog i.done{background:var(--acid)}
-.qnum{font-size:11px;letter-spacing:.24em;text-transform:uppercase;color:var(--blue);font-weight:700;margin-bottom:14px}
-.q{font-size:clamp(26px,7vw,36px);line-height:1.1;font-weight:800;letter-spacing:-.02em;margin:0 0 28px}
-.opt{
-  display:block;width:100%;text-align:left;background:rgba(244,242,236,.05);
-  border:1px solid rgba(244,242,236,.14);color:var(--paper);
-  font-size:16px;line-height:1.35;font-weight:500;padding:18px 20px;border-radius:2px;margin-bottom:9px;
-  transition:background .15s, border-color .15s, transform .12s;
-}
+.prog i{flex:1;height:3px;background:rgba(255,255,255,.2);border-radius:2px}
+.prog i.done{background:var(--cyan)}
+.qnum{font-size:11px;letter-spacing:.24em;text-transform:uppercase;color:var(--cyan);font-weight:700;margin-bottom:14px;display:flex;align-items:center;gap:8px}
+.qnum::before{content:"";width:13px;height:9px;background:var(--chev) no-repeat center/contain;flex:none}
+.q{font-size:clamp(24px,6.5vw,34px);line-height:1.12;font-weight:800;letter-spacing:-.02em;margin:0 0 28px}
+.opt{display:block;width:100%;text-align:left;background:rgba(255,255,255,.06);border:1px solid var(--faint);color:var(--white);font-size:16px;line-height:1.35;font-weight:500;padding:18px 20px;border-radius:3px;margin-bottom:9px;transition:background .15s,border-color .15s,transform .12s}
 .opt:active{transform:scale(.99)}
-.opt:hover{background:rgba(216,255,62,.12);border-color:var(--acid)}
+.opt:hover{background:rgba(91,200,240,.14);border-color:var(--cyan)}
 
 .loading{text-align:center}
 .loading .bars{display:flex;gap:6px;justify-content:center;align-items:flex-end;height:70px;margin-bottom:26px}
-.loading .bars s{display:block;width:8px;background:var(--acid);animation:bounce .7s infinite ease-in-out;text-decoration:none}
-.loading .bars s:nth-child(2){animation-delay:.09s;background:var(--blue)}
+.loading .bars s{display:block;width:8px;background:var(--white);animation:bounce .7s infinite ease-in-out;text-decoration:none}
+.loading .bars s:nth-child(2){animation-delay:.09s;background:var(--cyan)}
 .loading .bars s:nth-child(3){animation-delay:.18s}
-.loading .bars s:nth-child(4){animation-delay:.27s;background:var(--hot)}
+.loading .bars s:nth-child(4){animation-delay:.27s;background:var(--cyan)}
 .loading .bars s:nth-child(5){animation-delay:.36s}
 @keyframes bounce{0%,100%{height:12px}50%{height:66px}}
-.loading p{font-size:12px;letter-spacing:.24em;text-transform:uppercase;color:var(--mute)}
+.loading p{font-size:12px;letter-spacing:.24em;text-transform:uppercase;color:var(--soft)}
 
-/* ---------- RESULT CARD (also the printed artefact) ---------- */
-.card{
-  background:var(--paper);color:var(--ink);border-radius:3px;padding:30px 26px 26px;
-  box-shadow:0 30px 70px rgba(0,0,0,.55);
-}
-.card .top{display:flex;justify-content:space-between;align-items:baseline;border-bottom:2px solid var(--ink);padding-bottom:10px;margin-bottom:22px}
-.card .top span{font-size:9px;letter-spacing:.22em;text-transform:uppercase;font-weight:700}
-.forname{font-size:11px;letter-spacing:.24em;text-transform:uppercase;font-weight:700;color:var(--blue);margin-bottom:6px}
-.arch{font-size:clamp(30px,9vw,44px);line-height:.92;font-weight:800;letter-spacing:-.035em;text-transform:uppercase;margin:0 0 20px}
-.trackbox{border-top:1px solid rgba(11,11,12,.2);border-bottom:1px solid rgba(11,11,12,.2);padding:16px 0;margin-bottom:20px}
-.trackbox .lbl{font-size:9px;letter-spacing:.22em;text-transform:uppercase;font-weight:700;opacity:.55;margin-bottom:7px}
-.trackbox .ttl{font-size:24px;font-weight:800;letter-spacing:-.02em;line-height:1.1}
-.trackbox .art{font-size:15px;font-weight:500;opacity:.7;margin-top:3px}
-.card p{font-size:15px;line-height:1.55;margin:0 0 15px}
-.sub{font-size:9px;letter-spacing:.22em;text-transform:uppercase;font-weight:700;opacity:.55;margin:22px 0 7px}
-.instr{font-size:18px;font-weight:700;line-height:1.3;letter-spacing:-.01em}
-.pair{font-size:16px;font-weight:700}
-.card .foot{margin-top:26px;padding-top:14px;border-top:2px solid var(--ink);font-size:9px;letter-spacing:.18em;text-transform:uppercase;font-weight:700;display:flex;justify-content:space-between;gap:10px;flex-wrap:wrap}
-.card .foot em{font-style:normal;opacity:.55}
+/* ---- CERTIFICATE ---- */
+.card{background:var(--card);color:var(--ink);border-radius:3px;padding:22px 24px;box-shadow:0 30px 70px rgba(0,0,0,.5);position:relative;border:2px solid var(--afters);outline:1px solid var(--afters);outline-offset:4px}
+.card::before,.card::after{content:"";position:absolute;width:22px;height:16px;background:var(--afters);-webkit-mask:var(--chev) no-repeat center/contain;mask:var(--chev) no-repeat center/contain;opacity:.9}
+.card::before{top:12px;right:14px}
+.card::after{bottom:12px;left:14px;transform:scaleX(-1)}
+.card-lock{display:flex;justify-content:space-between;align-items:center;margin-bottom:16px}
+.card-lock .ribbon{height:20px;width:97px;color:var(--afters)}
+.card-lock .aa{font-size:11px;letter-spacing:.02em;font-weight:800;text-transform:uppercase;color:var(--afters)}
+.cert-title{font-family:var(--serif);text-align:center;font-size:24px;line-height:1.05;font-weight:700;color:var(--afters);letter-spacing:.01em;margin:6px 0 4px}
+.cert-rule{width:54px;height:2px;background:var(--afters);margin:12px auto 14px}
+.certify{font-family:var(--serif);font-style:italic;text-align:center;font-size:13px;line-height:1.5;color:var(--ink);opacity:.85;margin:0 auto;max-width:30em}
+.cert-name{font-family:var(--serif);text-align:center;font-size:26px;font-weight:700;margin:8px 0;letter-spacing:.01em}
+.arch{text-align:center;font-size:clamp(28px,8.5vw,40px);line-height:.95;font-weight:800;letter-spacing:-.03em;text-transform:uppercase;color:var(--afters);margin:10px 0 20px}
+.card p{font-size:14.5px;line-height:1.55;margin:0 0 13px}
+.trackbox{border-top:1px solid rgba(17,26,68,.22);border-bottom:1px solid rgba(17,26,68,.22);padding:14px 0;margin:18px 0}
+.lbl,.sub{font-size:9px;letter-spacing:.2em;text-transform:uppercase;font-weight:700;opacity:.55;display:flex;align-items:center;gap:6px}
+.lbl::before,.sub::before{content:"";width:11px;height:8px;background:var(--afters);-webkit-mask:var(--chev) no-repeat center/contain;mask:var(--chev) no-repeat center/contain;opacity:.7}
+.lbl{margin-bottom:8px}
+.trackbox .ttl{font-size:23px;font-weight:800;letter-spacing:-.02em;line-height:1.1}
+.trackbox .art{font-size:14px;font-weight:500;opacity:.7;margin-top:3px}
+.sub{margin:18px 0 7px}
+.pair{font-size:17px;font-weight:800;color:var(--afters)}
+.pair span{color:var(--ink);font-weight:500;opacity:.6;font-size:13px}
+.decree{font-size:17px;font-weight:700;line-height:1.32;letter-spacing:-.01em}
+.decree em{font-style:normal;display:block;font-size:10px;letter-spacing:.14em;text-transform:uppercase;font-weight:700;opacity:.5;margin-bottom:5px}
+.cert-foot{margin-top:22px;padding-top:14px;border-top:2px solid var(--afters);display:flex;justify-content:space-between;align-items:flex-end;gap:10px;flex-wrap:wrap}
+.cert-foot .meta{font-size:9px;letter-spacing:.14em;text-transform:uppercase;font-weight:700;opacity:.6;line-height:1.5}
+.cert-foot .seal{font-family:var(--serif);font-style:italic;font-size:13px;color:var(--afters);text-align:right;line-height:1.2}
+.cert-foot .seal small{display:block;font-size:8.5px;letter-spacing:.16em;text-transform:uppercase;font-style:normal;opacity:.6;margin-top:3px}
 
 .actions{margin-top:22px}
-.tiny{font-size:11px;letter-spacing:.1em;text-transform:uppercase;color:var(--mute);text-align:center;margin-top:22px}
+.tiny{font-size:11px;letter-spacing:.1em;text-transform:uppercase;color:var(--soft);text-align:center;margin-top:22px}
 
 @media print{
-  @page{size:A6 portrait;margin:8mm}
-  body{background:#fff;color:#000}
-  body::before,body::after{display:none}
-  .wrap{padding:0;max-width:none}
-  .brandbar,.actions,.tiny,.screen:not(.on){display:none!important}
-  .card{box-shadow:none;padding:0;border-radius:0;background:#fff}
-  .arch{font-size:30px}
-  .trackbox .ttl{font-size:19px}
-  .card p{font-size:11.5px;line-height:1.45;margin-bottom:9px}
-  .instr{font-size:13px}
-  .pair{font-size:12px}
-  .forname{color:#000}
+  @page{size:A5 portrait;margin:12mm}
+  body{background:#fff;color:#000}body::before,body::after{display:none}
+  .wrap{padding:0;max-width:none}.wrap::after{display:none}
+  .lockbar,.actions,.tiny,.screen:not(.on){display:none!important}
+  .card{box-shadow:none;background:#fff}
 }
 </style>
 </head>
 <body>
+<svg width="0" height="0" style="position:absolute" aria-hidden="true"><symbol id="ribbon" viewBox="0 0 720 148.17"><path fill-rule="nonzero" fill="currentColor"  d="M 710.765625 100.601562 L 676.445312 17.167969 C 649.367188 41.125 613.847656 54.265625 575.9375 54.265625 C 482.609375 54.265625 463.644531 5.867188 360.003906 5.867188 C 256.347656 5.867188 237.410156 54.265625 144.0625 54.265625 C 106.152344 54.265625 70.632812 41.125 43.554688 17.167969 L 9.234375 100.601562 C 48.699219 127.347656 95.265625 141.472656 144.0625 141.476562 C 253.421875 141.476562 284.546875 93.074219 359.996094 93.074219 C 435.457031 93.074219 466.574219 141.476562 575.9375 141.476562 C 624.734375 141.472656 671.300781 127.347656 710.765625 100.601562 Z M 678.65625 7.128906 L 717.996094 102.746094 C 674.292969 133.027344 626.367188 147.34375 575.9375 147.34375 C 465.269531 147.34375 433.8125 98.945312 359.996094 98.945312 C 286.171875 98.945312 254.734375 147.34375 144.0625 147.34375 C 93.535156 147.34375 45.625 132.96875 2.003906 102.746094 L 41.34375 7.128906 C 71.292969 35.234375 105.386719 48.398438 144.0625 48.398438 C 235.683594 48.398438 255 -0.00390625 360.003906 -0.00390625 C 465.011719 -0.00390625 484.316406 48.398438 575.9375 48.398438 C 614.621094 48.398438 648.710938 35.230469 678.65625 7.128906 Z M 687.394531 97.585938 L 663.753906 44.910156 C 637.683594 60.785156 607.402344 69.15625 575.9375 69.160156 C 479.070312 69.160156 459.554688 20.757812 360.003906 20.757812 C 260.476562 20.757812 240.90625 69.160156 144.0625 69.160156 C 112.597656 69.15625 82.316406 60.785156 56.246094 44.910156 L 32.609375 97.585938 C 66.183594 116.5625 104.660156 126.582031 144.0625 126.582031 C 252.980469 126.582031 277.730469 78.183594 359.996094 78.183594 C 442.25 78.183594 467.039062 126.582031 575.9375 126.582031 C 615.339844 126.582031 653.820312 116.5625 687.394531 97.585938 Z M 666.339844 36.339844 L 694.917969 100.019531 C 657.351562 121.835938 617.917969 132.449219 575.9375 132.453125 C 466.171875 132.453125 440.253906 84.050781 359.996094 84.050781 C 279.71875 84.050781 253.855469 132.453125 144.0625 132.453125 C 102.058594 132.449219 62.628906 121.824219 25.082031 100.019531 L 53.660156 36.339844 C 80.589844 53.523438 109.472656 63.289062 144.0625 63.289062 C 239.597656 63.289062 258.785156 14.890625 360.003906 14.890625 C 461.207031 14.890625 480.433594 63.289062 575.9375 63.289062 C 610.628906 63.289062 639.503906 53.464844 666.339844 36.339844 Z M 314.578125 58.550781 C 312.523438 54.222656 307.15625 42.6875 307.15625 42.6875 C 306.703125 43.945312 301.917969 57.207031 300.011719 62.53125 C 304.828125 60.804688 309.710938 59.46875 314.578125 58.550781 Z M 310.40625 36.863281 C 315.964844 47.769531 321.429688 58.804688 326.664062 69.679688 C 325.875 69.8125 321.121094 70.648438 320.363281 70.871094 C 319.710938 69.453125 317.621094 65.03125 316.957031 63.613281 C 310.507812 64.707031 304.039062 66.550781 297.6875 69.074219 C 296.648438 72 295.59375 74.953125 294.578125 77.835938 C 292.121094 78.65625 289.6875 79.507812 287.277344 80.386719 C 292.273438 66.730469 297.53125 52.679688 302.910156 38.589844 C 305.355469 37.980469 307.851562 37.402344 310.40625 36.863281 Z M 164.691406 100.253906 C 171.289062 99.792969 177.894531 99.058594 184.488281 98.054688 C 184.488281 96.101562 184.488281 94.148438 184.488281 92.195312 C 177.894531 93.199219 171.289062 93.929688 164.691406 94.390625 C 164.691406 91.46875 164.691406 88.542969 164.691406 85.617188 C 172.382812 85.078125 180.082031 84.167969 187.769531 82.894531 C 187.734375 80.859375 187.703125 78.824219 187.667969 76.792969 C 178.753906 78.332031 169.121094 79.433594 158.605469 79.972656 C 158.605469 91.65625 158.605469 103.34375 158.605469 115.027344 C 169.53125 114.554688 179.523438 113.578125 188.734375 112.1875 C 188.765625 110.265625 188.796875 108.347656 188.828125 106.425781 C 180.789062 107.617188 172.734375 108.40625 164.691406 108.789062 C 164.691406 105.945312 164.691406 103.101562 164.691406 100.253906 Z M 268.699219 82.875 C 261.003906 85.371094 258.144531 80.183594 258.144531 72.113281 C 258.144531 65.675781 262.636719 57.046875 269.082031 54.960938 C 273.089844 53.671875 276.867188 54.003906 278.03125 58.054688 L 283.75 56.28125 C 282.402344 48.78125 276.097656 46.800781 268.851562 49.136719 C 258.707031 52.414062 252.15625 62.167969 252.15625 73.992188 C 252.15625 85.519531 258.347656 91.855469 268.925781 88.433594 C 276.636719 85.945312 282.105469 79.921875 283.765625 72.398438 L 277.597656 73.992188 C 276.242188 78.261719 273.125 81.441406 268.699219 82.875 Z M 214.121094 86.28125 C 220.105469 84.683594 222.425781 81.042969 222.429688 79.152344 C 222.425781 74.933594 220.261719 75.199219 214.441406 76.761719 C 211.066406 77.65625 207.695312 78.480469 204.328125 79.238281 C 204.328125 82.292969 204.328125 85.347656 204.328125 88.402344 C 207.589844 87.761719 210.855469 87.050781 214.121094 86.28125 Z M 220.183594 89.777344 C 223.953125 93.941406 227.726562 97.957031 231.492188 101.847656 C 229.355469 102.558594 227.183594 103.253906 224.972656 103.929688 C 221.28125 100.132812 217.589844 96.214844 213.902344 92.152344 C 210.710938 92.957031 207.519531 93.710938 204.328125 94.390625 C 204.328125 99.371094 204.328125 104.351562 204.328125 109.332031 C 202.308594 109.765625 200.28125 110.199219 198.1875 110.59375 C 198.1875 98.632812 198.1875 86.671875 198.1875 74.710938 C 201.914062 73.886719 207.296875 72.828125 214.546875 70.902344 C 224.394531 68.25 229.046875 70.179688 229.046875 76.925781 C 229.046875 83.625 224.277344 87.59375 220.183594 89.777344 Z M 238.320312 99.492188 C 240.242188 98.804688 242.144531 98.105469 244.027344 97.398438 L 244.027344 59.945312 C 242.140625 60.703125 240.238281 61.457031 238.320312 62.203125 Z M 405.15625 56.191406 C 411.203125 57.625 417.253906 59.304688 423.296875 61.234375 C 423.296875 59.277344 423.296875 57.324219 423.296875 55.371094 C 417.253906 53.441406 411.203125 51.761719 405.15625 50.328125 C 405.15625 47.492188 405.15625 44.65625 405.15625 41.820312 C 412.203125 43.226562 419.261719 44.964844 426.304688 47.039062 C 426.273438 45.050781 426.242188 43.0625 426.214844 41.070312 C 417.902344 38.605469 409.0625 36.496094 399.3125 34.929688 C 399.3125 46.886719 399.3125 58.839844 399.3125 70.796875 C 409.1875 72.785156 418.34375 75.425781 427.175781 78.445312 C 427.210938 76.433594 427.242188 74.425781 427.269531 72.414062 C 419.90625 69.933594 412.527344 67.816406 405.15625 66.066406 C 405.15625 62.773438 405.15625 59.484375 405.15625 56.191406 Z M 362.507812 57.652344 C 355.003906 49.023438 347.382812 40.746094 339.878906 32.722656 C 337.558594 32.898438 335.277344 33.089844 333.054688 33.320312 C 333.054688 45.121094 333.054688 56.921875 333.054688 68.722656 C 334.925781 68.472656 336.8125 68.234375 338.742188 68.035156 C 338.726562 58.800781 338.710938 49.566406 338.691406 40.332031 C 346.613281 48.898438 354.652344 57.742188 362.574219 66.984375 C 364.394531 67.003906 366.21875 67.039062 368.042969 67.09375 C 368.042969 55.425781 368.042969 43.761719 368.042969 32.09375 C 366.203125 32.042969 364.308594 32.023438 362.410156 32.007812 C 362.441406 40.558594 362.476562 49.105469 362.507812 57.652344 Z M 641.507812 83.945312 C 636.21875 84.164062 631.996094 84.300781 631.972656 80.578125 C 631.957031 77.296875 635.09375 74.527344 640.160156 73.355469 C 643.195312 72.65625 646.835938 72.753906 647.902344 75.664062 C 649.722656 74.984375 652.054688 74.089844 654.210938 73.195312 C 652.1875 67.601562 645.867188 66.628906 640.054688 68.019531 C 630.902344 70.203125 625.234375 75.527344 625.265625 81.917969 C 625.304688 90.996094 635.453125 90.078125 639.304688 89.859375 C 645.308594 89.542969 649.160156 89.589844 649.179688 93.625 C 649.1875 96.28125 646.089844 99.6875 640.152344 101.066406 C 637.636719 101.652344 634.730469 101.597656 632.761719 99.945312 L 625.695312 101.414062 C 627.828125 105.660156 633.03125 108.394531 640.261719 106.671875 C 649.886719 104.375 656.089844 98.664062 656.054688 92.121094 C 656.019531 83.578125 648.660156 83.636719 641.507812 83.945312 Z M 533.902344 87.363281 C 533.902344 83.40625 531.066406 82.6875 525.167969 81.5625 L 516.035156 79.722656 L 516.035156 88.515625 L 525.46875 90.574219 C 529.746094 91.386719 533.902344 91.5625 533.902344 87.363281 Z M 531.363281 96.597656 L 541.417969 113.488281 C 538.75 113.191406 536.144531 112.855469 533.59375 112.492188 L 523.847656 96.097656 L 516.035156 94.609375 L 516.035156 109.367188 C 513.960938 108.917969 511.929688 108.449219 509.925781 107.964844 L 509.925781 71.734375 C 516.828125 73.65625 525.882812 75.65625 525.894531 75.65625 C 535.660156 77.515625 540.21875 81.539062 540.21875 88.308594 C 540.21875 93.640625 536.566406 96.121094 531.363281 96.597656 Z M 497.214844 78.46875 C 497.214844 74.289062 493.304688 72.292969 486.980469 70.207031 L 480.078125 68.050781 L 480.078125 78.808594 L 486.980469 80.964844 C 493.148438 82.992188 497.214844 83.675781 497.214844 78.46875 Z M 503.191406 79.503906 C 503.191406 85.066406 498.375 90.425781 487.523438 86.855469 L 480.078125 84.460938 L 480.078125 98.742188 L 474.113281 96.511719 L 474.113281 59.980469 C 486.324219 63.792969 490.105469 65.269531 492.234375 66.121094 C 499.742188 69.328125 503.191406 73.242188 503.191406 79.503906 Z M 467.539062 57.585938 L 461.101562 54.9375 L 451.339844 63.761719 L 441.257812 46.074219 C 438.421875 45.039062 435.546875 44.035156 432.617188 43.078125 L 446.253906 66.789062 L 431.464844 79.945312 C 433.566406 80.695312 435.652344 81.464844 437.730469 82.25 L 449.367188 72.195312 L 459.886719 90.488281 L 468.75 94.300781 L 454.382812 69.09375 Z M 556.242188 99.882812 C 562.550781 100.398438 568.992188 100.667969 575.625 100.667969 L 575.625 94.972656 C 569.21875 94.972656 562.734375 94.714844 556.242188 94.183594 L 556.242188 85.78125 C 564.453125 86.351562 571.308594 86.421875 578.839844 86.273438 C 578.820312 85.292969 578.8125 84.390625 578.738281 80.292969 C 568.074219 80.453125 559.25 80.042969 550.183594 79.179688 L 550.183594 114.332031 C 561.488281 115.25 569.972656 115.433594 579.789062 115.257812 C 579.796875 114.816406 579.867188 110.042969 579.875 109.601562 C 572.039062 109.75 564.082031 109.492188 556.242188 108.851562 Z M 603.640625 92.84375 C 598.347656 92.433594 593.769531 92.078125 593.769531 88.386719 C 593.769531 85.191406 597.019531 82.878906 602.253906 82.347656 C 605.65625 81.996094 609.589844 82.671875 610.382812 86.054688 C 611.992188 85.738281 614.519531 85.214844 617.050781 84.628906 C 615.460938 78.605469 608.800781 76.394531 602.214844 77.117188 C 592.875 78.125 586.839844 82.761719 586.839844 88.933594 C 586.835938 97.726562 597.148438 98.082031 601.289062 98.359375 C 607.550781 98.773438 611.511719 99.308594 611.511719 103.25 C 611.511719 105.832031 608.296875 108.773438 602.160156 109.398438 C 599.082031 109.699219 595.515625 109.074219 593.769531 106.507812 L 586.667969 107.359375 C 588.480469 112.792969 594.71875 115.6875 602.199219 114.894531 C 612.175781 113.8125 618.621094 108.972656 618.621094 102.566406 C 618.621094 94.003906 610.660156 93.386719 603.640625 92.84375 Z M 84.1875 92.066406 L 77.101562 72.554688 C 76.671875 73.585938 73.699219 80.203125 70.703125 86.851562 C 75.199219 88.769531 79.695312 90.503906 84.1875 92.066406 Z M 82.46875 69.71875 L 97.070312 110.199219 C 94.757812 109.691406 92.464844 109.136719 90.175781 108.554688 L 86.539062 98.535156 C 80.507812 96.636719 74.46875 94.417969 68.4375 91.875 C 66.792969 95.515625 65.359375 98.683594 64.609375 100.320312 C 62.769531 99.597656 60.914062 98.914062 59.09375 98.140625 L 73.710938 66.300781 C 76.601562 67.507812 79.515625 68.660156 82.46875 69.71875 Z M 144.070312 80.371094 C 145.289062 80.371094 146.441406 80.332031 147.640625 80.316406 L 147.640625 115.316406 C 146.441406 115.328125 145.292969 115.371094 144.070312 115.371094 C 143.257812 115.371094 142.449219 115.308594 141.636719 115.300781 C 141.648438 109.863281 141.699219 89.058594 141.75 84.796875 C 140.132812 89.21875 130.601562 110.558594 128.742188 114.769531 C 126.425781 114.605469 124.113281 114.402344 121.808594 114.167969 C 119.671875 108.984375 110.496094 86.980469 108.917969 82.652344 C 108.964844 86.769531 109.011719 106.222656 109.027344 112.484375 C 107.023438 112.160156 105.027344 111.796875 103.035156 111.417969 L 103.289062 75.765625 C 106.726562 76.542969 110.1875 77.226562 113.675781 77.808594 C 115.746094 83.121094 124.089844 104.40625 125.605469 108.652344 L 137.035156 80.167969 C 139.378906 80.253906 141.71875 80.371094 144.070312 80.371094 "/></symbol></svg>
 <div class="wrap">
 
-  <div class="brandbar">
-    <div><b>Amex Afters</b></div>
-    <div>29 Aug &middot; Nia Archives</div>
+  <div class="lockbar">
+    <svg class="ribbon" viewBox="0 0 720 148.17"><use href="#ribbon"/></svg>
+    <div class="evt">Amex Afters<br>29 Aug &middot; Nia Archives</div>
   </div>
 
   <!-- INTRO -->
   <section class="screen on" id="s-intro">
-    <div class="kicker">The Jungle Reading</div>
-    <h1>What's your<br><em>jungle</em><br>classic?</h1>
-    <p class="lede">Five questions. One track from the golden era of jungle, chosen for you and you alone. Plus what it says about how you move.</p>
-    <button class="btn" onclick="go('name')">Begin your reading</button>
+    <div class="aahero"><span class="a">Amex Afters</span><span class="r">Amex Afters</span></div>
+    <div class="kicker">In the spirit of Nia Archives</div>
+    <h1>What kind of<br>Emotional<br><em>Junglist</em><br>are you?</h1>
+    <p class="lede">Five questions to find your junglist type, the classic that matches your energy, and a track off Nia's new album to play it next to. Print your reading and take it home.</p>
+    <button class="btn" onclick="go('name')">Find out</button>
   </section>
 
   <!-- NAME -->
   <section class="screen" id="s-name">
-    <div class="kicker">First things first</div>
+    <div class="kicker">First, for the certificate</div>
     <label for="nm">Your name or nickname</label>
     <input type="text" id="nm" placeholder="Type here" autocomplete="off" maxlength="22" spellcheck="false">
     <div style="height:34px"></div>
@@ -167,248 +155,98 @@ input::placeholder{color:rgba(244,242,236,.22)}
 
   <!-- LOADING -->
   <section class="screen" id="s-load">
-    <div class="loading">
-      <div class="bars"><s></s><s></s><s></s><s></s><s></s></div>
-      <p id="loadmsg">Reading the breaks</p>
-    </div>
+    <div class="loading"><div class="bars"><s></s><s></s><s></s><s></s><s></s></div><p id="loadmsg">The oracle is reading you</p></div>
   </section>
 
-  <!-- RESULT -->
+  <!-- RESULT / CERTIFICATE -->
   <section class="screen" id="s-result">
     <div class="card" id="card">
-      <div class="top"><span>Amex Afters</span><span>The Jungle Reading</span></div>
-      <div class="forname" id="r-name"></div>
-      <h2 class="arch" id="r-arch"></h2>
-      <div class="trackbox">
-        <div class="lbl">Your jungle classic</div>
-        <div class="ttl" id="r-track"></div>
-        <div class="art" id="r-artist"></div>
+      <div class="card-lock"><svg class="ribbon" viewBox="0 0 720 148.17"><use href="#ribbon"/></svg><span class="aa">Amex Afters</span></div>
+      <div class="cert-title">Certificate of<br>Emotional Junglism</div>
+      <div class="cert-rule"></div>
+      <div class="certify">This is to certify that</div>
+      <div class="cert-name" id="r-name"></div>
+      <div class="certify">on the night of 29 August 2026, at Amex Afters with Nia Archives, had their inner junglist revealed to be</div>
+      <div class="arch" id="r-arch"></div>
+      <p id="r-read1"></p><p id="r-read2"></p>
+      <div class="trackbox"><div class="lbl">Your jungle classic</div><div class="ttl" id="r-track"></div><div class="art" id="r-artist"></div></div>
+      <div class="sub">Play it next to</div><div class="pair" id="r-pair"></div>
+      <div class="sub">The oracle's instruction</div>
+      <div class="decree"><em>To be obeyed at all times</em><span id="r-instr"></span></div>
+      <div class="cert-foot">
+        <div class="meta" id="r-meta"></div>
+        <div class="seal">Sealed by the Amex Afters Oracle<small>Nia Archives &middot; 29 Aug 2026</small></div>
       </div>
-      <p id="r-read1"></p>
-      <p id="r-read2"></p>
-      <div class="sub">Your instruction tonight</div>
-      <div class="instr" id="r-instr"></div>
-      <div class="sub">Play it next to</div>
-      <div class="pair" id="r-pair"></div>
-      <div class="foot"><span>29 August 2026</span><em id="r-code"></em></div>
     </div>
     <div class="actions">
-      <button class="btn blue" onclick="window.print()">Print my reading</button>
+      <button class="btn cyan" onclick="window.print()">Print my certificate</button>
       <button class="btn ghost" onclick="reset()">Start again</button>
     </div>
-    <div class="tiny">Show this card at the print desk</div>
+    <div class="tiny">Show this at the print desk to take it home</div>
   </section>
 
 </div>
 
 <script>
-/* ---------------- DATA ---------------- */
 /* Axes: E energy, S soul, D darkness, W swagger */
-
 var QUESTIONS = [
-  { q:"It's 2am and the bass drops. Where are you?",
-    a:[
-      {t:"Front and centre, hands in the air", v:[8,3,2,8]},
-      {t:"Middle of the floor, eyes closed, locked in", v:[5,8,3,2]},
-      {t:"Right by the speaker stack, feeling it in your chest", v:[7,3,8,4]},
-      {t:"By the bar, holding court", v:[4,5,2,8]}
-    ]},
-  { q:"The DJ pulls it back for a rewind. You...",
-    a:[
-      {t:"Scream the loudest in the room", v:[9,3,2,9]},
-      {t:"Nod once. Knowingly.", v:[4,6,6,3]},
-      {t:"Get the phone out, obviously", v:[5,5,2,8]},
-      {t:"Use the gap to go and find your people", v:[4,8,2,4]}
-    ]},
-  { q:"Your relationship with the amen break?",
-    a:[
-      {t:"Chopped to bits. The messier the better.", v:[9,2,6,5]},
-      {t:"Rolling and smooth. Let it breathe.", v:[4,9,2,3]},
-      {t:"Dark, minimal, slightly threatening", v:[6,3,10,3]},
-      {t:"Under a big vocal, every single time", v:[6,7,2,8]}
-    ]},
-  { q:"Pick tonight's uniform.",
-    a:[
-      {t:"All black, technical, unbothered", v:[5,4,9,4]},
-      {t:"Vintage sportswear and box fresh trainers", v:[7,4,3,9]},
-      {t:"Something you'll be asked about all night", v:[6,6,3,9]},
-      {t:"Comfortable. You came to dance, not to pose.", v:[7,8,3,2]}
-    ]},
-  { q:"How does the night end?",
-    a:[
-      {t:"Last one on the floor when the lights come up", v:[9,5,4,6]},
-      {t:"Night bus home, headphones on, replaying it", v:[3,10,3,2]},
-      {t:"Somewhere else entirely, with brand new people", v:[7,6,3,8]},
-      {t:"Home early, satisfied, no notes", v:[4,7,2,3]}
-    ]}
+  { q:"When a tune really hits you, what happens?",
+    a:[{t:"I have to move. Immediately. Everyone will know.",v:[8,3,2,8]},{t:"It goes straight to my chest and I close my eyes.",v:[5,8,3,2]},{t:"I feel it somewhere deep and a little primal.",v:[7,3,8,4]},{t:"I stay cool on the outside. Inside, I'm gone.",v:[4,5,2,8]}]},
+  { q:"The best feeling in a room full of people is...",
+    a:[{t:"Being the brightest, loudest thing in it.",v:[9,3,2,9]},{t:"Catching the eye of someone who just gets it.",v:[4,6,6,3]},{t:"Knowing you look completely untouchable.",v:[5,5,2,8]},{t:"Finding your people and holding them close.",v:[4,8,2,4]}]},
+  { q:"When it comes to feelings, you run...",
+    a:[{t:"All or nothing, messy, at full volume.",v:[9,2,6,5]},{t:"Slow and warm. Let it build.",v:[4,9,2,3]},{t:"Guarded. You feel deeply, but quietly.",v:[6,3,10,3]},{t:"Wide open. Heart worn on the sleeve.",v:[6,7,2,8]}]},
+  { q:"What do people feel when you walk in?",
+    a:[{t:"A little mystery. They can't quite read you.",v:[5,4,9,4]},{t:"Energy. You bring the charge.",v:[7,4,3,9]},{t:"Intrigue. You're the talking point.",v:[6,6,3,9]},{t:"Warmth. You put everyone at ease.",v:[7,8,3,2]}]},
+  { q:"What do you take home from a night like this?",
+    a:[{t:"A story you'll be telling for years.",v:[9,5,4,6]},{t:"A feeling you can't name, replayed all the way home.",v:[3,10,3,2]},{t:"New people, new numbers, no regrets.",v:[7,6,3,8]},{t:"A full heart and a happy early night.",v:[4,7,2,3]}]}
 ];
 
 var TRACKS = [
-  { v:[9,3,4,10], arch:"The Fire Starter", title:"Original Nuttah", artist:"Shy FX & UK Apache, 1994",
-    r1:"You are the reason a room turns around. Some people wait to be told the night has started. You are the announcement. There is a particular energy that arrives with you, and everybody in the vicinity adjusts to it whether they meant to or not.",
-    r2:"The gift is timing. You know exactly when to go, and more importantly you know that going first is the whole point. Nobody remembers the second person on the dancefloor.",
-    instr:"Do not wait for permission. Go first, and go loud.", pair:"Nia Archives, Off Wiv Ya Headz" },
-
-  { v:[8,5,2,9], arch:"The Crowd Pleaser", title:"Incredible", artist:"M-Beat feat. General Levy, 1994",
-    r1:"You bring people with you. Not by force, by sheer good company. Your instinct is always to turn round and check that everyone is having as good a time as you are, and remarkably, they usually are.",
-    r2:"There is real skill in being universally welcome. You carry a room the way a big vocal carries a track: unmistakably, generously, and without needing to be clever about it.",
-    instr:"Find the person standing on their own and change their night.", pair:"Nia Archives, Baianá" },
-
-  { v:[7,2,10,5], arch:"The Time Traveller", title:"Terminator", artist:"Rufige Kru, 1992",
-    r1:"You were always slightly ahead. You liked it before, you moved on early, and you have made peace with the fact that this occasionally makes you difficult to plan an evening with.",
-    r2:"Your taste runs cold and forward. You are drawn to the thing that sounds like it arrived from somewhere else, because on some level you suspect you did too.",
-    instr:"Trust the tune nobody else has clocked yet. You are right.", pair:"Nia Archives, Forbidden Feelingz" },
-
-  { v:[7,8,3,4], arch:"The Romantic Raver", title:"Renegade Snares", artist:"Omni Trio, 1993",
-    r1:"You are here for the feeling, not the flex. Rough drums and a beautiful melody at the same time is not a contradiction to you, it is the entire point, and it is roughly how you handle most things in life.",
-    r2:"People underestimate how much you notice. You clock the small stuff: a look across the room, a chord change, someone slipping out early. It all goes in.",
-    instr:"When the melody comes in, stop talking. Just take it.", pair:"Nia Archives, Silence Is Loud" },
-
-  { v:[3,10,1,2], arch:"The Daydreamer", title:"Music", artist:"LTJ Bukem, 1993",
-    r1:"You move at your own tempo and you always have. While everyone else is chasing the drop, you are already somewhere warmer, wider and considerably more pleasant.",
-    r2:"There is a calm about you that other people borrow without asking. You are the friend who makes the night feel manageable, and you rarely get thanked for it. Consider this the thank you.",
-    instr:"Find the edge of the floor with the best view and stay there.", pair:"Nia Archives, Sober Feels" },
-
-  { v:[6,7,4,5], arch:"The Navigator", title:"The Helicopter Tune", artist:"Deep Blue, 1993",
-    r1:"You see the whole floor. Where the good energy is, where it is going, which corner is about to go off. You have an internal map of the evening and it is usually accurate.",
-    r2:"This makes you the one people follow without discussing it. You do not lead loudly. You simply move, and a small crowd goes with you.",
-    instr:"Back your instinct on where to be at 1am. Take three people with you.", pair:"Nia Archives, So Tell Me..." },
-
-  { v:[9,3,3,8], arch:"The Marksman", title:"Super Sharp Shooter", artist:"DJ Zinc, 1995",
-    r1:"Precision and cheek in equal measure. You do not do things by half, and you have a gift for arriving at exactly the right moment with exactly the right line.",
-    r2:"Your confidence reads as effortless because you have quietly done the work. That is your secret and you are welcome to keep it.",
-    instr:"One perfect move beats ten decent ones. Pick your moment.", pair:"Nia Archives, Bad Gyalz" },
-
-  { v:[4,8,3,7], arch:"The Smooth Operator", title:"Pulp Fiction", artist:"Alex Reece, 1995",
-    r1:"You have never had to try very hard and it slightly annoys people. Yours is the low-key charisma that fills a room without raising its voice, all groove and no fuss.",
-    r2:"You understand that space is as important as content. What you leave out is what makes the rest of it land.",
-    instr:"Say less tonight. It has never let you down yet.", pair:"Nia Archives, Luv Like" },
-
-  { v:[7,5,9,3], arch:"The Heavyweight", title:"The Angels Fell", artist:"Dillinja, 1995",
-    r1:"You go deep or you do not go. Small talk is a tax you pay reluctantly on your way to the actual conversation, and you would rather have one proper one than twenty polite ones.",
-    r2:"There is weight to you. People feel it before they can explain it, which is exactly how the best basslines work.",
-    instr:"Have the real conversation. Somebody here is waiting for it.", pair:"Nia Archives, Unfinished Business" },
-
-  { v:[5,9,4,7], arch:"The Perfectionist", title:"Brown Paper Bag", artist:"Roni Size & Reprazent, 1997",
-    r1:"You care about craft. The details other people skate over are the details you build everything on, and you are quietly certain that this is why your stuff works.",
-    r2:"You also know when to let it swing. The discipline is in service of the feeling, never the other way round, and that is a rarer balance than you think.",
-    instr:"Stop editing for one night. Let it run.", pair:"Nia Archives, Crowded Roomz" },
-
-  { v:[8,6,5,8], arch:"The True Believer", title:"Junglist", artist:"Congo Natty, 1995",
-    r1:"This is not a phase for you and it never was. You were in it before it was fashionable, you stayed in it when it was not, and you will be in it long after tonight.",
-    r2:"Culture matters to you. Where it came from, who made it, who got paid. You carry that with you and you pass it on, usually to someone who did not realise they needed telling.",
-    instr:"Tell someone younger where this music actually came from.", pair:"Nia Archives, Blackgirls Like Us" },
-
-  { v:[4,10,5,6], arch:"The Deep Feeler", title:"Inner City Life", artist:"Goldie, 1994",
-    r1:"You feel everything at full volume, which is exhausting and also the best thing about you. Music is not background for you, it is a place you go.",
-    r2:"Your emotional range is your instrument. It is why people tell you things they have not told anybody else, sometimes in a very loud room at a very odd hour.",
-    instr:"Let it get to you. That is the whole reason you came.", pair:"Nia Archives, Silence Is Loud" },
-
-  { v:[8,5,3,6], arch:"The Roller", title:"The License", artist:"Krome & Time, 1994",
-    r1:"Steady, relentless, impossible to knock off course. You do not do drama, you do momentum, and over a long enough night that beats drama every single time.",
-    r2:"Other people burn bright and burn out. You are still going at four in the morning, entirely unbothered, wondering where everybody went.",
-    instr:"Pace it. You are going to outlast this entire room.", pair:"Nia Archives, Conveniency" },
-
-  { v:[5,9,2,5], arch:"The Sophisticate", title:"Circles", artist:"Adam F, 1995",
-    r1:"You have taste and you know it, but you are not showy about it. You like things that reward attention: the second listen, the detail nobody else clocked, the thing that gets better rather than louder.",
-    r2:"You are the person whose recommendations get taken seriously. Use that power responsibly.",
-    instr:"Recommend one tune tonight. Make it count.", pair:"Nia Archives, Sober Feels" }
+  { v:[9, 3, 4, 10], arch:"The Main Character", title:"Original Nuttah", artist:"Shy FX & UK Apache, 1994", r1:"You feel things at full brightness and you have never once apologised for it. When something moves you, the whole room finds out, and honestly the room is better for it. You were built to be the centre of the story, and you have made your peace with that.", r2:"Underneath the sparkle is real generosity: you want everyone in on the feeling, not just watching it. People leave a night with you convinced it was the best one in ages. Usually because it was.", instr:"Feel it out loud. Someone nearby needs the permission.", pair:"Danger" },
+  { v:[8, 5, 2, 9], arch:"The Group Chat Admin", title:"Incredible", artist:"M-Beat feat. General Levy, 1994", r1:"Your love language is logistics and it is wildly underrated. You are the reason people feel held: you clock who has gone quiet, who slipped off, who needs a glass of water and a sit down. You carry the whole group and rarely get asked how you are.", r2:"It can feel thankless, but make no mistake, you are the emotional infrastructure of every good night. People feel safe around you. That is a rare and quietly beautiful thing to be.", instr:"Tonight, let someone look after you for a change.", pair:"Boys In Blue" },
+  { v:[7, 2, 10, 5], arch:"The Gatekeeper", title:"Terminator", artist:"Rufige Kru, 1992", r1:"You feel things early and deeply, usually before anyone else has caught up. You loved this before it was on the flyer, and that is not snobbery, it is devotion. When you give your heart to something, you give it properly, and you stay.", r2:"Yes, you have opinions, and yes, you are usually right. But under the taste is real passion. When you love a thing you love it completely, and you genuinely want other people to feel it too.", instr:"Share the thing you love tonight, with no caveats.", pair:"Vertical" },
+  { v:[7, 8, 3, 4], arch:"The Soft Launch", title:"Renegade Snares", artist:"Omni Trio, 1993", r1:"You are all feeling, all of the time, and you would not have it any other way. A beautiful melody over rough drums can genuinely undo you, and you let it, which takes more courage than people realise.", r2:"You notice everything: the look, the mood shift, the person going quiet in the corner. Your sensitivity is a superpower, not a flaw. The world needs people who feel this much and still turn up anyway.", instr:"When the melody comes in, let yourself have the moment. Fully.", pair:"This Could Be..." },
+  { v:[3, 10, 1, 2], arch:"The Vibe Guardian", title:"Music", artist:"LTJ Bukem, 1993", r1:"You feel things gently and at your own tempo, and you refuse to be rushed. While everyone else chases the high, you have found something warmer and slower, and you are quietly having the loveliest time of anyone here.", r2:"People relax the second you arrive. You are the calm the whole room borrows. Being the steady one is not glamorous, but it is a kind of quiet magic, and everyone secretly wants to be near it.", instr:"Protect your peace tonight. Let the others come to you.", pair:"Train Of Thought" },
+  { v:[6, 7, 4, 5], arch:"The Human Sat-Nav", title:"The Helicopter Tune", artist:"Deep Blue, 1993", r1:"You feel a room before you understand it. You always know where the warmth is, which corner has the good energy, who needs pulling into the circle. It is instinct, it is generous, and people trust it completely.", r2:"You do not lead by shouting. You move toward the feeling and everyone follows, because somewhere they know you will get them to the good bit. You are the compass of the night. Own it.", instr:"Trust your instinct on where the warmth is. Take people with you.", pair:"Around Tha Bend" },
+  { v:[9, 3, 3, 8], arch:"The Sniper", title:"Super Sharp Shooter", artist:"DJ Zinc, 1995", r1:"You feel a lot and say a little, which fools people into thinking you are cool and detached. You are not. You are precise. When you do let something out, it lands, because you meant every single word of it.", r2:"There is a whole ocean under the calm surface, and the people who get close enough to see it are the lucky ones. Your restraint is not distance, it is care. You give your words real weight.", instr:"Say the true thing tonight. The one you have been holding back.", pair:"Superlust" },
+  { v:[4, 8, 3, 7], arch:"The Unbothered", title:"Pulp Fiction", artist:"Alex Reece, 1995", r1:"You feel things deeply but wear them lightly, and it puts everyone instantly at ease. Nothing seems to rattle you, and that calm is a gift you hand out without ever noticing you are doing it.", r2:"The secret is that you care more than you let on. The effortless thing is a choice, a kindness even, so nobody else has to feel the pressure. You make the hard things look easy so others can breathe.", instr:"Let someone see you try tonight. It suits you.", pair:"Get Me Down" },
+  { v:[7, 5, 9, 3], arch:"The 3AM Philosopher", title:"The Angels Fell", artist:"Dillinja, 1995", r1:"Small talk leaves you cold. You are here for the real thing: the honest conversation, ideally somewhere loud enough that two people can say the true stuff and blame it on the hour. That is where you come alive.", r2:"There is a depth to you people feel before they can name it. You give others permission to be honest, and by the end of the night someone will have told you something they have never said out loud. That is a gift.", instr:"Have the real conversation. Someone here has been waiting for it.", pair:"Tha Darkest Hour" },
+  { v:[5, 9, 4, 7], arch:"The Perfectionist", title:"Brown Paper Bag", artist:"Roni Size & Reprazent, 1997", r1:"You feel things precisely. Where others get a blur, you catch the detail, the craft, the tiny thing that made the whole moment work. You care deeply and specifically, and it is why everything you touch has a little more love in it.", r2:"Your real gift is knowing when to let go. All that care is in service of the feeling, of making things beautiful for other people. Tonight, trust that it is already good enough, because it is.", instr:"Stop perfecting for one night. Let it be lovely as it is.", pair:"Feelingz Go Numb" },
+  { v:[8, 6, 5, 8], arch:"The Purist", title:"Junglist", artist:"Congo Natty, 1995", r1:"This was never a phase for you. You loved it when it was unfashionable, you stayed when others drifted off, and you will still be here long after the trend has moved on. Your loyalty runs deep and it defines you.", r2:"Culture matters to you: where it came from, who made it, who it belongs to. You carry that with real feeling and you pass it on, and the people you pass it to are luckier than they know.", instr:"Pass the flame to someone younger tonight. Gently.", pair:"There Goes Ma Head" },
+  { v:[4, 10, 5, 6], arch:"Emotional Support Raver", title:"Inner City Life", artist:"Goldie, 1994", r1:"You feel everything at maximum volume, and it is your best quality, even on the nights it exhausts you. Music is not background for you, it is somewhere you go, and you have welled up at a bassline before now, proudly.", r2:"People tell you things they have not told anyone else, because you make it safe to feel. You are the heart of every group you are in. You did not audition for the role, you were simply the obvious choice.", instr:"Let the music reach you tonight. That is the whole point of you.", pair:"Lovers Grief" },
+  { v:[8, 5, 3, 6], arch:"The Last One Standing", title:"The Licence", artist:"Krome & Time, 1994", r1:"You feel things slow, steady and deep. You do not burn hot and fade, you endure. While others peak and crash around you, you are still here, still feeling it, quietly outlasting everyone with a calm that borders on heroic.", r2:"Your loyalty is the same as your stamina: total. You are the one who stays, at the party and in people's lives. Being the last one standing is not stubbornness, it is devotion, and people rely on it more than they say.", instr:"Stay till the end tonight. You always were the finale.", pair:"Dance With Me 2nite" },
+  { v:[5, 9, 2, 5], arch:"The Connoisseur", title:"Circles", artist:"Adam F, 1995", r1:"You feel things through taste. You love the second listen, the detail nobody else caught, the thing that rewards attention rather than shouting for it. Your heart is discerning, and that is not fussiness, it is depth.", r2:"When you say something matters, people believe you, because you have never once been careless with your love. You give it only to what earns it, which makes your enthusiasm the most trusted currency in the room.", instr:"Share one thing you truly love tonight. Watch it spread.", pair:"Tender" }
 ];
 
-var LOADMSGS = ["Reading the breaks","Cross-referencing the bassline","Consulting the 1994 archive","Cueing up your dubplate"];
+var LOADMSGS=["The oracle is reading you","Consulting the 1994 archive","Divining your frequency","Reading your inner junglist","Cross-referencing the breaks"];
+var state={name:"",i:0,score:[0,0,0,0]};
 
-/* ---------------- ENGINE ---------------- */
-var state = { name:"", i:0, score:[0,0,0,0] };
-
-function go(id){
-  var els = document.querySelectorAll('.screen');
-  for(var i=0;i<els.length;i++) els[i].classList.remove('on');
-  document.getElementById('s-'+id).classList.add('on');
-  window.scrollTo(0,0);
-  if(id==='name') setTimeout(function(){ document.getElementById('nm').focus(); }, 350);
-}
-
-function startQuiz(){
-  var v = document.getElementById('nm').value.trim();
-  state.name = v || "Junglist";
-  state.i = 0; state.score = [0,0,0,0];
-  go('q'); renderQ();
-}
-
-function renderQ(){
-  var Q = QUESTIONS[state.i];
-  var p = "";
-  for(var i=0;i<QUESTIONS.length;i++) p += '<i class="'+(i<=state.i?'done':'')+'"></i>';
-  document.getElementById('prog').innerHTML = p;
-  document.getElementById('qnum').textContent = "Question "+(state.i+1)+" of "+QUESTIONS.length;
-  document.getElementById('qtext').textContent = Q.q;
-  var h = "";
-  for(var j=0;j<Q.a.length;j++) h += '<button class="opt" onclick="answer('+j+')">'+Q.a[j].t+'</button>';
-  document.getElementById('opts').innerHTML = h;
-  window.scrollTo(0,0);
-}
-
-function answer(j){
-  var v = QUESTIONS[state.i].a[j].v;
-  for(var k=0;k<4;k++) state.score[k] += v[k];
-  state.i++;
-  if(state.i < QUESTIONS.length){ renderQ(); }
-  else { finish(); }
-}
-
-function hash(s){ var h=0; for(var i=0;i<s.length;i++){ h=(h*31+s.charCodeAt(i))|0; } return Math.abs(h); }
-
-function finish(){
-  go('load');
-  document.getElementById('loadmsg').textContent = LOADMSGS[Math.floor(Math.random()*LOADMSGS.length)];
-
-  var hs = hash(state.name.toLowerCase());
-  var v = state.score.slice();
-  for(var k=0;k<4;k++){ v[k] = v[k] + ((hs >> (k*3)) % 5) - 2; }
-
-  var best = 0, bestScore = -1;
-  for(var t=0;t<TRACKS.length;t++){
-    var tv = TRACKS[t].v, dot=0, ma=0, mb=0;
-    for(var k2=0;k2<4;k2++){ dot += v[k2]*tv[k2]; ma += v[k2]*v[k2]; mb += tv[k2]*tv[k2]; }
-    var cos = dot / (Math.sqrt(ma)*Math.sqrt(mb));
-    if(cos > bestScore){ bestScore = cos; best = t; }
-  }
-
-  var r = TRACKS[best];
+function go(id){var e=document.querySelectorAll('.screen');for(var i=0;i<e.length;i++)e[i].classList.remove('on');document.getElementById('s-'+id).classList.add('on');window.scrollTo(0,0);if(id==='name')setTimeout(function(){document.getElementById('nm').focus();},350);}
+function startQuiz(){var v=document.getElementById('nm').value.trim();state.name=v||"Junglist";state.i=0;state.score=[0,0,0,0];go('q');renderQ();}
+function renderQ(){var Q=QUESTIONS[state.i],p="";for(var i=0;i<QUESTIONS.length;i++)p+='<i class="'+(i<=state.i?'done':'')+'"></i>';document.getElementById('prog').innerHTML=p;document.getElementById('qnum').textContent="Question "+(state.i+1)+" of "+QUESTIONS.length;document.getElementById('qtext').textContent=Q.q;var h="";for(var j=0;j<Q.a.length;j++)h+='<button class="opt" onclick="answer('+j+')">'+Q.a[j].t+'</button>';document.getElementById('opts').innerHTML=h;window.scrollTo(0,0);}
+function answer(j){var v=QUESTIONS[state.i].a[j].v;for(var k=0;k<4;k++)state.score[k]+=v[k];state.i++;if(state.i<QUESTIONS.length){renderQ();}else{finish();}}
+function hash(s){var h=0;for(var i=0;i<s.length;i++){h=(h*31+s.charCodeAt(i))|0;}return Math.abs(h);}
+function finish(){go('load');document.getElementById('loadmsg').textContent=LOADMSGS[Math.floor(Math.random()*LOADMSGS.length)];
+  var hs=hash(state.name.toLowerCase()),v=state.score.slice();for(var k=0;k<4;k++){v[k]=v[k]+((hs>>(k*3))%5)-2;}
+  var best=0,bs=-1;for(var t=0;t<TRACKS.length;t++){var tv=TRACKS[t].v,d=0,ma=0,mb=0;for(var k2=0;k2<4;k2++){d+=v[k2]*tv[k2];ma+=v[k2]*v[k2];mb+=tv[k2]*tv[k2];}var c=d/(Math.sqrt(ma)*Math.sqrt(mb));if(c>bs){bs=c;best=t;}}
+  var r=TRACKS[best];
   setTimeout(function(){
-    document.getElementById('r-name').textContent = "A reading for " + state.name;
-    document.getElementById('r-arch').textContent = r.arch;
-    document.getElementById('r-track').textContent = r.title;
-    document.getElementById('r-artist').textContent = r.artist;
-    document.getElementById('r-read1').textContent = r.r1;
-    document.getElementById('r-read2').textContent = r.r2;
-    document.getElementById('r-instr').textContent = r.instr;
-    document.getElementById('r-pair').textContent = r.pair;
-    document.getElementById('r-code').textContent = "No. " + (hs % 9000 + 1000);
+    document.getElementById('r-name').textContent=state.name;
+    document.getElementById('r-arch').textContent=r.arch;
+    document.getElementById('r-track').textContent=r.title;
+    document.getElementById('r-artist').textContent=r.artist;
+    document.getElementById('r-read1').textContent=r.r1;
+    document.getElementById('r-read2').textContent=r.r2;
+    document.getElementById('r-instr').textContent=r.instr;
+    document.getElementById('r-pair').innerHTML=r.pair+' <span>from Emotional Junglist</span>';
+    document.getElementById('r-meta').innerHTML="No. "+(hs%9000+1000)+"<br>29 August 2026";
     go('result');
-  }, 2100);
-}
-
-function reset(){
-  document.getElementById('nm').value = "";
-  state = { name:"", i:0, score:[0,0,0,0] };
-  go('intro');
-}
-
-document.getElementById('nm').addEventListener('keydown', function(e){
-  if(e.key === 'Enter'){ e.preventDefault(); startQuiz(); }
-});
-
-/* Kiosk idle reset: returns to intro after 90s of no interaction on the result screen */
-var idle;
-function bumpIdle(){
-  clearTimeout(idle);
-  idle = setTimeout(function(){
-    if(document.getElementById('s-result').classList.contains('on')) reset();
-  }, 90000);
-}
-['click','touchstart','keydown'].forEach(function(ev){ document.addEventListener(ev, bumpIdle); });
-bumpIdle();
+  },2100);}
+function reset(){document.getElementById('nm').value="";state={name:"",i:0,score:[0,0,0,0]};go('intro');}
+document.getElementById('nm').addEventListener('keydown',function(e){if(e.key==='Enter'){e.preventDefault();startQuiz();}});
+var idle;function bumpIdle(){clearTimeout(idle);idle=setTimeout(function(){if(document.getElementById('s-result').classList.contains('on'))reset();},90000);}
+['click','touchstart','keydown'].forEach(function(ev){document.addEventListener(ev,bumpIdle);});bumpIdle();
 </script>
 </body>
 </html>
